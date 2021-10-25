@@ -1,0 +1,60 @@
+html {
+    height: 10%;
+    margin-bottom: -10%;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #ffe4e1;
+}
+.contact{
+    width: 100%;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact p{
+    color:#800000;
+    font-size: 30px;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: bold;
+    border-bottom: 2px solid black;
+}
+.social a{
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #834333;
+    margin: 20px 10px;
+    border-radius: 10%;
+    font-size: 23px;
+    margin-bottom: 5%;
+    position: static;
+}
+.social{
+    display: flex;
+    margin-left: 45%;
+
+}
+.social a{
+    color: #E5E4E2;
+}
+.social a:hover,
+.social2 a:hover{
+    background-color: #F2D2BD;
+    box-shadow: 2px 2px 12px #71797E;
+    transition: all ease 0.5s;
+    color: black;
+    transition: all ease 0.5s;
+}
+footer{
+    text-align: center;
+    align-items: center;
+    font-family: 'Bebas Neue', cursive;
+    color: #685867;
+    font-size: 20px;
+    padding: 0%;
+}
